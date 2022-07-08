@@ -16,3 +16,4 @@ console.log(parseInt("asdf"))
 
 console.log(typeof(a))
 console.log(typeof(true))
+console.log(typeof(null)) // This Is A Bug In JavaScript That The Type Of Null Is Object
