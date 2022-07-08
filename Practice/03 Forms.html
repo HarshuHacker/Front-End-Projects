@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Code.org_logo.svg/1200px-Code.org_logo.svg.png">
+  <meta name="description" content="">
+  <meta name="keyword" content="">
+  <meta name="author" content="Harsh Prasad">
+</head>
+<body>
+  <form action="" method="post">
+    <p>
+      Select Gender : 
+    </p>
+    <input type="radio" name="gender" value="female">Female <br>
+    <input type="radio" name="gender" value="male" checked> Male <br>
+    <input type="radio" name="gender" value="other"> Other <br>
+    <input type="submit">
+  </form>
+
+  <form action="" method="post">
+    <p>
+      Select Topics : 
+    </p>
+    <input type="checkbox" name="course" value="html" checked> HTML <br>
+    <input type="checkbox" name="course" value="css" checked> CSS <br>
+    <input type="checkbox" name="course" value="javascript"> JAVASCRIPT <br>
+    <input type="submit">
+  </form>
+
+  <form action="" method="post">
+    <p>
+      Year Of Joining
+    </p>
+
+    <select name="year">
+
+      <optgroup label="22-23">
+        <option value="2022">2022</option>
+        <option value="2023" selected>2023</option>
+      </optgroup>
+
+      <optgroup label="24-25">
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </optgroup>
+      
+    </select>
+
+    <select name="year" multiple>
+      <optgroup label="22-23">
+        <option value="2022">2022</option>
+        <option value="2023" selected>2023</option>
+      </optgroup>
+
+      <optgroup label="24-25">
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </optgroup>
+    </select>
+
+    <p>
+      <b>
+        Share Your Experience
+      </b>
+    </p>
+    <textarea name="experience" id="" cols="30" rows="10"></textarea>
+    <br>
+
+    <button type="submit"><abbr title="The button is a reset button (resets the form-data to its initial values)">Submit</abbr></button>
+    <button type="reset"><abbr title="The button is a submit button (submits form-data)">Reset</abbr></button>
+     <button type="button"><abbr title="The button is a clickable button">Button</abbr></button>
+
+  </form>
+
+  <p>
+    <h4>
+      Audio File
+    </h4>
+  </p>
+  <audio src="https://pwdown.com/113604/Pasoori - Shae Gill.mp3" controls autoplay >
+
+  </audio>
+
+  <p>
+    <h4>
+      Video From Youtube
+    </h4>
+  </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nwz2Cmq3zD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+  </iframe>
+
+  <video width="320" height="240" controls autoplay muted>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Browser Doesn't Support Video Format .
+  </video>
+
+</body>
+</html>
