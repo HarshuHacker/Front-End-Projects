@@ -17,3 +17,12 @@ for (var i in arr){
 for (var i in obj){
   console.log(obj[i])
 }
+
+// The Way The Length Of An Array Is Found Out Is Maximum Integer Key + 1
+
+arr.ele = "Hello"
+console.log(arr)
+console.log(arr.length)
+arr[50] = 51
+console.log(arr)
+console.log(arr.length)
