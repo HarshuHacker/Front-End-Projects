@@ -1,0 +1,36 @@
+body
+{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#circle-outer
+{
+  position: relative;
+  height: 80px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+#circle
+{
+  background-color: black;
+  position: absolute;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 15px;
+  left: 15px;
+  transition: all 0.5s;
+}
+
+#text
+{
+  font-size: 3rem;
+  font-weight: 900;
+}
