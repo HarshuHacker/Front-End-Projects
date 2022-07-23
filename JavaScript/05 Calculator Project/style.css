@@ -49,9 +49,23 @@ main
   display: none;
 }
 
+#history
+{
+  font-size: 5vw;
+  position: absolute;
+  right: 3vw;
+  bottom: 140px;
+  opacity: 0.6;
+}
+
+#history i 
+{
+  font-size: 4vw;
+}
+
 #result
 {
-  font-size: 8vw;
+  font-size: 10vw;
   position: absolute;
   right: 3vw;
   bottom: 30px;
