@@ -4,7 +4,7 @@ class Person {
     this.name = name; 
   }
 
-  getName()
+  getName() // We Can Create A Function Like This Inside Class
   {
     return this.name
   }
