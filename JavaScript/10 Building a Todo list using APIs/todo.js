@@ -4,8 +4,6 @@
   const addTaskInput = document.getElementById('add');
   const tasksCounter = document.getElementById('tasks-counter');
 
-  var a = 10
-
   // Using GET Request
 
   // function fetchTodos() {
