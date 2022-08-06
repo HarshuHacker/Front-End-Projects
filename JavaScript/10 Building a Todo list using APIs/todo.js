@@ -1,7 +1,10 @@
-let tasks = [];
+(function() {
+  let tasks = [];
 const tasksList = document.getElementById('list');
 const addTaskInput = document.getElementById('add');
 const tasksCounter = document.getElementById('tasks-counter');
+
+var a = 10
 
 // Using GET Request
 
@@ -158,3 +161,4 @@ function initializeApp() {
 }
 
 initializeApp()
+} ())
