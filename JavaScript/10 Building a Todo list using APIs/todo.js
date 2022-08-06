@@ -1,9 +1,11 @@
-(function() {
+var todoModule = (function() {
   let tasks = [];
   const tasksList = document.getElementById('list');
   const addTaskInput = document.getElementById('add');
   const tasksCounter = document.getElementById('tasks-counter');
 
+  var num = 25
+  
   // Using GET Request
 
   // function fetchTodos() {
@@ -158,5 +160,8 @@
     document.addEventListener("click", handleEventListener)
   }
 
-  initializeApp()
+  return {
+    initializeApp,
+    num
+  }
 })()
