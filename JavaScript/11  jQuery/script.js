@@ -22,3 +22,19 @@ $("p").css({
   "color" : "white",
   "fontSize": "50px"
 })
+
+$("#box").css({
+  "height" : "100px",
+  "width" : "100px",
+  "backgroundColor" : "red"
+})
+
+$("#box").click(function() {
+  var element = $(this)
+  element.width(element.width() + 10 + "px")
+})
+
+$("a").on("click", function(event) {
+  event.preventDefault()
+  // alert("Anchor Tag Clicked")
+})
